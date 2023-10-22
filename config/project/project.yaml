@@ -1,0 +1,22 @@
+dateModified: 1697943581
+email:
+  fromEmail: kasimahmed573@gmail.com
+  fromName: Bikers
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    99774a2a-93f0-4fda-a6bd-09dd86bb70f4: Bikers # Bikers
+    10605414-65ba-473d-a157-31a529a28b20: Common # Common
+    a13308ca-4fb7-4172-b3dd-ef36281325c9: Bikers # Bikers
+system:
+  edition: solo
+  live: true
+  name: Bikers
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

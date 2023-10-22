@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: Bikers
+primary: true
+siteGroup: 99774a2a-93f0-4fda-a6bd-09dd86bb70f4 # Bikers
+sortOrder: 1
