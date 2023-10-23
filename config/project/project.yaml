@@ -1,13 +1,41 @@
-dateModified: 1697943581
+dateModified: 1698038239
 email:
   fromEmail: kasimahmed573@gmail.com
   fromName: Bikers
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  imageUpload:
+    hasUrls: true
+    name: 'Image Upload'
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+  upload:
+    hasUrls: true
+    name: Upload
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
 meta:
   __names__:
+    748eb6ac-7c3a-487d-b010-31846ef2735b: Upload # Upload
+    4630d6d1-0b2d-4061-858e-43cb1beae07c: Home # Home
     99774a2a-93f0-4fda-a6bd-09dd86bb70f4: Bikers # Bikers
     10605414-65ba-473d-a157-31a529a28b20: Common # Common
     a13308ca-4fb7-4172-b3dd-ef36281325c9: Bikers # Bikers
+    ad178e3a-8571-437a-8d60-e7cd034c2dcd: 'Home Page' # Home Page
+    c66abe47-3c29-4e76-8490-3ae30fedae8b: Home # Home
+    c2240d46-b802-44cd-95c5-df5a459e5486: 'Hero Image' # Hero Image
+    d72b4db3-3c8c-4fca-8e93-3f0b35219c67: 'Hero Title' # Hero Title
 system:
   edition: solo
   live: true
